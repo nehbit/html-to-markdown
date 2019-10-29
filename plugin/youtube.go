@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/JohannesKaufmann/html-to-markdown"
 	"github.com/PuerkitoBio/goquery"
+	"github.com/nehbit/html-to-markdown"
 )
 
 var youtubeID = regexp.MustCompile(`youtube\.com\/embed\/([^\&\?\/]+)`)

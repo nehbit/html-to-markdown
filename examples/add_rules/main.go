@@ -5,8 +5,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/JohannesKaufmann/html-to-markdown"
 	"github.com/PuerkitoBio/goquery"
+	"github.com/nehbit/html-to-markdown"
 )
 
 func main() {
